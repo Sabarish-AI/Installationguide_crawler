@@ -17,7 +17,7 @@ You can install the required libraries using pip:
 -> pip install requests beautifulsoup4
 
 Clone the repository:
--> git clone https://github.com/your-username/your-repository.git
+-> git clone https://github.com/Sabarish-AI/Installationguide_crawler.git
 
 Navigate to the project directory:
 -> cd the-target-repository
