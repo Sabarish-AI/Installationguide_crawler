@@ -1,0 +1,29 @@
+Headings,Sub-Headings,Code
+Create and Use Virtual Environments,Create a new virtual environment,python3 -m venv .venv
+Create and Use Virtual Environments,Activate a virtual environment,source .venv/bin/activate
+Create and Use Virtual Environments,Deactivate a virtual environment,deactivate
+Create and Use Virtual Environments,Reactivate a virtual environment,python3 -m pip install --upgrade pip python3 -m pip --version
+Create and Use Virtual Environments,Install a package,python3 -m pip install requests
+Create and Use Virtual Environments,Install a specific package version,python3 -m pip install 'requests==2.18.4'
+Create and Use Virtual Environments,Install extras,python3 -m pip install 'requests[security]'
+Create and Use Virtual Environments,Install a package from source,cd google-auth python3 -m pip install .
+Create and Use Virtual Environments,Install from version control systems,google-auth @ git+https://github.com/GoogleCloudPlatform/google-auth-library-python.git
+Create and Use Virtual Environments,Install from local archives,python3 -m pip install requests-2.18.4.tar.gz
+Create and Use Virtual Environments,Install from other package indexes,python3 -m pip install --index-url http://index.example.com/simple/ SomeProject
+Prepare pip,Install a package,python3 -m pip install requests
+Prepare pip,Install a specific package version,python3 -m pip install 'requests==2.18.4'
+Prepare pip,Install extras,python3 -m pip install 'requests[security]'
+Prepare pip,Install a package from source,cd google-auth python3 -m pip install .
+Prepare pip,Install from version control systems,google-auth @ git+https://github.com/GoogleCloudPlatform/google-auth-library-python.git
+Prepare pip,Install from local archives,python3 -m pip install requests-2.18.4.tar.gz
+Prepare pip,Install from other package indexes,python3 -m pip install --index-url http://index.example.com/simple/ SomeProject
+Install packages using pip,Install a package,python3 -m pip install requests
+Install packages using pip,Install a specific package version,python3 -m pip install 'requests==2.18.4'
+Install packages using pip,Install extras,python3 -m pip install 'requests[security]'
+Install packages using pip,Install a package from source,cd google-auth python3 -m pip install .
+Install packages using pip,Install from version control systems,google-auth @ git+https://github.com/GoogleCloudPlatform/google-auth-library-python.git
+Install packages using pip,Install from local archives,python3 -m pip install requests-2.18.4.tar.gz
+Install packages using pip,Install from other package indexes,python3 -m pip install --index-url http://index.example.com/simple/ SomeProject
+Upgrading packages,,python3 -m pip install --upgrade requests
+Using a requirements file,,python3 -m pip install -r requirements.txt
+Freezing dependencies,,python3 -m pip freeze
